@@ -394,6 +394,7 @@ ul,ol{
     flex-wrap: wrap;
     column-gap: 32px;
     row-gap: 24px;
+    margin-top: 47px;
 }
 .feature_item{
     padding: 58px 32px 48px 48px;
@@ -422,5 +423,76 @@ ul,ol{
     /* ===== feature end here ===== */
 
 
+    /* ===== about start here ===== */
+#about{
+    padding: 128px 0;
+    background-color: #F4F6FC;
+    border: 1px solid #000;
+}
+.about_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about_left h3{
+    width: 327px;
+    font-size: 36px;
+    font-family: var(--poppins);
+    font-weight: 600;
+    color: var(--dark-blue);
+    line-height: 56px;
+}
+.about_left .paragraph{
+    width: 327px;
+    color: var(--dark-blue);
+    margin-top: 16px;
+}
+.about_right h3{
+    width: 843px;
+    font-size: 32px;
+    font-family: var(--poppins);
+    color: var(--dark-blue);
+    font-weight: 500;
+    line-height: 48px;
+}
+.client_info{
+    margin-top: 51px;
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+}
+.client_img{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.client_img img{
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+}
+.client_details h4{
+    color: var(--dark-blue);
+    font-size: 18px;
+    font-family: var(--poppins);
+    font-weight: 500;
+    line-height: 32px;
+    text-transform: capitalize;
+}
+.client_details h6{
+    color: var(--dark-blue);
+    font-size: 12px;
+    font-family: var(--poppins);
+    font-weight: 500;
+    line-height: 28px;
+    text-transform: capitalize;
+}
+    /* ===== about end here ===== */
+
+
+    /* ===== navbar start here ===== */
+    /* ===== navbar end here ===== */
     /* ===== navbar start here ===== */
     /* ===== navbar end here ===== */
