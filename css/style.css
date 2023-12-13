@@ -1,5 +1,6 @@
 :root{
     --poppins: 'Poppins', sans-serif;
+    --manrope: 'Manrope', sans-serif;
     --tint-blue: #1C1E53;
     --dark-blue: #282938;
     --white: #FFFFFF;
@@ -23,7 +24,14 @@ ul,ol{
     width: 1280px;
     margin: 0 auto;
 }
-
+.paragraph{
+    color: var(--white);
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    opacity: 0.7;
+}
 
     /* ===== navbar start here ===== */
 #navbar{
@@ -77,4 +85,57 @@ ul,ol{
     background-color: var(--yellow-type);
     color: var(--dark-blue);
 }
+    /* ===== navbar end here ===== */
+
+
+    /* ===== banner start here ===== */
+#banner{
+    padding: 218px 0 128px 0;
+    background-color: var(--tint-blue);
+}
+.banner_wrapper{
+    display: flex;
+    column-gap: 60px;
+}
+.banner_content{
+    width: 582px;
+}
+.banner_heading{
+    color: var(--white);
+    font-family: var(--poppins);
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+}
+.banner_content .paragraph{
+    width: 562px;
+    margin-top: 24px;
+}
+.banner_btn a{
+    color: #1B1C2B;
+    font-family: var(--manrope);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    text-transform: capitalize;
+    padding: 16px 56px;
+    background-color: var(--yellow-type);
+    border-radius: 41px;
+    margin-top: 64px;
+}
+.banner_btn a:last-child{
+    background-color: transparent;
+    color: var(--white);
+}
+.banner_btn a i{
+    margin-left: 16px;
+}
+    /* ===== banner end here ===== */
+
+
+    /* ===== navbar start here ===== */
+    /* ===== navbar end here ===== */
+
+
+    /* ===== navbar start here ===== */
     /* ===== navbar end here ===== */
