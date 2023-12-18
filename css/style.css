@@ -513,6 +513,7 @@ ul,ol{
     width: 328px;
     font-size: 38px;
     line-height: 56px;
+    text-transform: none;
 }
 .question_left a{
     color: var(--royal-blue);
